@@ -1,15 +1,9 @@
-#MONGO
 spring.application.name=api
-spring.data.mongodb.uri=
-spring.data.mongodb.database=
-#SQL SERVER
-spring.datasource.url=
-spring.datasource.username=
-spring.datasource.password=
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
-spring.jpa.hibernate.ddl-auto=
 #KEYVAULT
 spring.cloud.azure.keyvault.secret.endpoint=
 spring.cloud.azure.credential.client-id=
 spring.cloud.azure.credential.client-secret=
 spring.cloud.azure.credential.tenant-id=
+spring.cloud.azure.credential.authentication-mode=service_principal
+
+
